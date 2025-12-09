@@ -1,0 +1,101 @@
+/* --- General --- */
+body {
+    margin: 0;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #111;
+    border-bottom: 2px solid #222;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header h2 {
+    margin: 10px 0 20px 0;
+    font-weight: normal;
+    color: #9c9c9c;
+}
+
+header nav a {
+    color: #4fa3ff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Sections --- */
+section {
+    max-width: 900px;
+    margin: 20px auto;    
+}
+
+h3 {
+    border-left: 5px solid #4fa3ff;
+    padding-left: 10px;
+    font-size: 1.8rem;
+}
+
+/* --- Projects --- */
+.project {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #4fa3ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #6fb5ff;
+}
+
+/* --- Skills --- */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111;
+    margin-top: 40px;
+    color: #777;
+}
